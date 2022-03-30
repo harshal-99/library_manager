@@ -1,0 +1,42 @@
+POST http://localhost:3001/api/magazine
+Content-Type: application/json
+
+{
+  "title": "a magzine",
+  "authors": [
+    "me",
+    "my friend"
+  ],
+  "isbn": "123-123-123",
+  "publishedAt": "today"
+}
+
+
+
+
+###
+
+POST http://localhost:3001/api/book
+Content-Type: application/json
+
+{
+  "title": "a book",
+  "authors": [
+    "me",
+    "my friend"
+  ],
+  "isbn": "123-123-123",
+  "description": "very interesting book"
+}
+
+###
+POST http://localhost:3001/api/author
+Content-Type: application/json
+
+{
+  "firstName": "ha",
+  "lastName": "ha",
+  "email": "ha"
+}
+
+###
